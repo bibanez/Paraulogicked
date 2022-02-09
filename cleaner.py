@@ -6,7 +6,8 @@ f = open("ca.dic", "r")
 lines = f.readlines()
 f.close()
 print(len(lines))
-                                                                                                                              cleaned = []
+
+cleaned = []
 for i in range(len(lines)):
     line = lines[i]    
     # Match any one or more characters different from '/' at the start    
